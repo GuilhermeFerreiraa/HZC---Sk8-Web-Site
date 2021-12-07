@@ -186,6 +186,10 @@ body {
     font-size: 1.2rem;
     font-weight: 700;
 }
+.titulo__secao-destaque{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
 
 @media screen and (min-width: 1440px) {
     .principal {
@@ -235,7 +239,7 @@ body {
 }
 
 .cartao__titulo {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 700;
     grid-column: span 2;
 }
@@ -262,13 +266,27 @@ body {
     /* margin-right: 8px;     */
 }
 
+.cartao__info--price:hover{
+    width: 100%;
+}
+
 .cartao__botao--carrinho::before{
     content:"\e901" !important;
+}
+
+.cartao__botao--carrinho:hover{
+    cursor: pointer;
 }
 
 .cartao__info--visualizacao::before {
     content: "\e90f";
     margin-right: 8px;    
+}
+
+.cartao__info--localizacao::before{
+    content: "\e909";
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .cartao__botao {
@@ -286,6 +304,7 @@ body {
 .cartao__botao--play::before {
     content: "\e90b";
     font-size: 24px;
+    cursor: pointer;
 }
 
 .cartao__botao--destaque {
@@ -299,6 +318,10 @@ body {
 
 .cartao--recentes {
     display: none;
+}
+
+.destaque-picos{
+    background-image: url(../img/mapa-picos.png) !important;
 }
 
 @media screen and (min-width: 1440px) {
@@ -370,9 +393,18 @@ body {
     }
 }
 
+.cartao__imagem--picos{
+    width: 220%;
+}
+
 .secao {
     display: grid;
     gap: 16px;
+}
+
+.secao-picos{
+    display: grid;
+    gap: 32px;
 }
 
 @media screen and (min-width: 1440px) {
