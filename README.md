@@ -39,4 +39,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 *site possui telas não desenvolvidas, o projeto ainda está na fase beta da aplicação :)
 
 
-Desenvolvido por Guilherme Ferreira & OneBitCode.
+Desenvolvido por Guilherme Ferreira.
