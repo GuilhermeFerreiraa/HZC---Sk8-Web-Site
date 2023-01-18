@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - HTML5
 
-## 💻 Projeto
+## 💻 Projeto - Acessar o link do projeto: https://hzc-sk8-front.netlify.app
 
 O objetivo do projeto é aplicar os conceitos e conhecimentos que obtive em um curto período de tempo, com uma aplicação de picos e novidades para skatistas, podendo saber quais os picos que a galera ta curtindo no momento, e fora isso, algumas camisetas e vídeos que podem acompanhar de algumas manobras.💪 
 
